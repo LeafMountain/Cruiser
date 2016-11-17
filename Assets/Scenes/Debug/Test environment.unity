@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3735644, g: 0.38112032, b: 0.35887682, a: 1}
+  m_IndirectSpecularColor: {r: 0.37356448, g: 0.3811204, b: 0.35887685, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -365,7 +365,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactableObject: {fileID: 1511738986}
-  runScript: {fileID: 662592683}
 --- !u!114 &662592683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -773,6 +772,9 @@ MonoBehaviour:
   answers:
   - Hej
   - Hej
+  scenes:
+  - {fileID: 102900000, guid: 8b938fe568083d647aa80c7941dc419b, type: 3}
+  - {fileID: 0}
 --- !u!4 &1750238458 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000013116147436, guid: 03201733951e75242835bf21330c4108,
