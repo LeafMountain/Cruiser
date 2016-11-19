@@ -72,7 +72,7 @@ public class PickUpObject : MonoBehaviour {
     {
         carrying = false;
         carriedObject.gameObject.GetComponent<Rigidbody>().useGravity = true;
-        carriedObject.gameObject.GetComponent<Rigidbody>().AddRelativeForce(forceStrength, ForceMode.Impulse);
+        //carriedObject.gameObject.GetComponent<Rigidbody>().AddRelativeForce(forceStrength, ForceMode.Impulse);
         carriedObject = null;
     }
 }

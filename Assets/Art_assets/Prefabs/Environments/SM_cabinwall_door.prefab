@@ -15,7 +15,7 @@ GameObject:
   - 65: {fileID: 6537680}
   - 65: {fileID: 6581458}
   m_Layer: 0
-  m_Name: sm_cabinwall_door
+  m_Name: SM_cabinwall_door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
