@@ -21,6 +21,7 @@ GameObject:
   - 4: {fileID: 4000011223944660}
   - 33: {fileID: 33000013220164286}
   - 23: {fileID: 23000012505142812}
+  - 65: {fileID: 65000014058732724}
   m_Layer: 0
   m_Name: sm_corridor_floor
   m_TagString: Untagged
@@ -34,8 +35,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011023501840}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.201162, y: -4.595027, z: -4.447683}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -12.143316, y: 4.427029, z: -4.5244975}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -77,3 +78,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011023501840}
   m_Mesh: {fileID: 4300000, guid: f3d96bb38a1141946b5799613267a76d, type: 3}
+--- !u!65 &65000014058732724
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011023501840}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2935436, y: 0, z: 2.511021}
+  m_Center: {x: 0, y: 0, z: 0}
