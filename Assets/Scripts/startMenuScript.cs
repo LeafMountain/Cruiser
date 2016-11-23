@@ -8,17 +8,18 @@ public class startMenuScript : MonoBehaviour {
     public Canvas quitMenu;
     public Button startText;
     public Button quitText;
-    //public Canvas creditsMenu;
-    //public Button creditsText;
+    public Canvas creditsMenu;
+    public Button creditsText;
 
 	// Use this for initialization
 	void Start () {
         quitMenu = quitMenu.GetComponent<Canvas>();
         startText = startText.GetComponent<Button>();
         quitText = quitText.GetComponent<Button>();
-        //creditsMenu = creditsMenu.GetComponent<Canvas>();
-        //creditsText = creditsText.GetComponent<Button>();
+        creditsMenu = creditsMenu.GetComponent<Canvas>();
+        creditsText = creditsText.GetComponent<Button>();
         quitMenu.enabled = false;
+        creditsMenu.enabled = false;
 	}
 	
     public void ExitPress() //öppen quit menu
@@ -26,7 +27,7 @@ public class startMenuScript : MonoBehaviour {
         quitMenu.enabled = true;
         startText.enabled = false;
         quitText.enabled = false;
-        //creditsText.enabled = false;
+        creditsText.enabled = false;
     }
 
     public void NoPress() //stänga quit menu
@@ -34,7 +35,7 @@ public class startMenuScript : MonoBehaviour {
         quitMenu.enabled = false;
         startText.enabled = true;
         quitText.enabled = true;
-        //creditsText.enabled = true;
+        creditsText.enabled = true;
     }
 
     public void StartLevel() //starta spelet
@@ -47,7 +48,7 @@ public class startMenuScript : MonoBehaviour {
         Application.Quit ();
     }
 
-    /*public void creditPress() //öppna credits
+    public void creditPress() //öppna credits
     {
         creditsMenu.enabled = true;
         startText.enabled = false;
@@ -60,5 +61,5 @@ public class startMenuScript : MonoBehaviour {
         startText.enabled = true;
         quitText.enabled = true;
         creditsText.enabled = true;
-    }*/
+    }
 }
