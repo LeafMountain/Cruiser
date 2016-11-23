@@ -22,7 +22,7 @@ public class StateManager : MonoBehaviour {
 
     void Start()
     {
-        currentState = new StartState(this);
+        currentState = new PlayState(this);
     }
 	
 	public void ChangeState(IGameState newState)
