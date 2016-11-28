@@ -478,7 +478,7 @@ RectTransform:
   m_RootOrder: 7
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -225}
+  m_AnchoredPosition: {x: 0, y: -275}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &507699186
@@ -798,7 +798,7 @@ RectTransform:
   m_RootOrder: 6
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 370, y: 100}
+  m_AnchoredPosition: {x: 350, y: 170}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &619859055
@@ -836,79 +836,68 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4410ed47f9564c3439a119113f7ad059, type: 3}
-    m_FontSize: 25
+    m_FontSize: 19
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 300
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Patriks tatuerare
-
-
-    Fan och hans moster
-
-
-    En penna
-
-
-    Unity asset store'
+  m_Text: "Cecilia Jensg\xE5rd - Lead Artist\n& VA for Roy\n\nMartin Silvikko - Animator\n\nPatrik
+    Bj\xF6rk - SM, QA &\nAnimator\n\nJacob Stenberg - Animator &\nCharacter Designer\n\nErik
+    Forsstr\xF6m - Animator\n\nNora Cossa \xC5kesson - \nAnimator\n\nDavid Desantis
+    - Concept Artist\n\nJoakim Engholm - Animator\n\nElin Randemark - Animator"
 --- !u!222 &619859057
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 619859053}
---- !u!4 &657508876 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4000013528940706, guid: 0e53d3e642ddabb4891213e5c592cc5b,
-    type: 2}
-  m_PrefabInternal: {fileID: 860861880}
---- !u!1001 &860861880
+--- !u!1001 &776313332
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4000013528940706, guid: 0e53d3e642ddabb4891213e5c592cc5b, type: 2}
+    - target: {fileID: 4000012907172720, guid: c414737f8b18867419468d9b190506cc, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4000013528940706, guid: 0e53d3e642ddabb4891213e5c592cc5b, type: 2}
+    - target: {fileID: 4000012907172720, guid: c414737f8b18867419468d9b190506cc, type: 2}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4000013528940706, guid: 0e53d3e642ddabb4891213e5c592cc5b, type: 2}
+    - target: {fileID: 4000012907172720, guid: c414737f8b18867419468d9b190506cc, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4000013528940706, guid: 0e53d3e642ddabb4891213e5c592cc5b, type: 2}
+    - target: {fileID: 4000012907172720, guid: c414737f8b18867419468d9b190506cc, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4000013528940706, guid: 0e53d3e642ddabb4891213e5c592cc5b, type: 2}
+    - target: {fileID: 4000012907172720, guid: c414737f8b18867419468d9b190506cc, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4000013528940706, guid: 0e53d3e642ddabb4891213e5c592cc5b, type: 2}
+    - target: {fileID: 4000012907172720, guid: c414737f8b18867419468d9b190506cc, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4000013528940706, guid: 0e53d3e642ddabb4891213e5c592cc5b, type: 2}
+    - target: {fileID: 4000012907172720, guid: c414737f8b18867419468d9b190506cc, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4000013528940706, guid: 0e53d3e642ddabb4891213e5c592cc5b, type: 2}
+    - target: {fileID: 4000012907172720, guid: c414737f8b18867419468d9b190506cc, type: 2}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 0e53d3e642ddabb4891213e5c592cc5b, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: c414737f8b18867419468d9b190506cc, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &954303488
 GameObject:
@@ -943,7 +932,7 @@ RectTransform:
   m_RootOrder: 5
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 370, y: 160}
+  m_AnchoredPosition: {x: 370, y: 220}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &954303490
@@ -1032,7 +1021,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 225}
+  m_AnchoredPosition: {x: 0, y: 275}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1057206878
@@ -1121,7 +1110,7 @@ RectTransform:
   m_RootOrder: 4
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 100}
+  m_AnchoredPosition: {x: -20, y: 170}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1125373810
@@ -1159,19 +1148,21 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4410ed47f9564c3439a119113f7ad059, type: 3}
-    m_FontSize: 25
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 300
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Jan Guillou\n\nHarry Potter och hans moster\n\nAlex sv\xE4rmor\n\nChristian
-    Eks Dator"
+  m_Text: "Christian Ek - Lead Writer & Dialog\n\nVolodymyr Shabala - Writer &\nVA
+    for Dragomir\n\nMarcus \xD6verengen - Writer &\nVA for Wright\n\nGertrud Bondesson
+    - Writer & \nVA for Erin\n\nJohn Michael Bueno - Writer &\nVA for Bartender\n\nKarl
+    Johansson - Writer"
 --- !u!222 &1125373812
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1415,7 +1406,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -370, y: 100}
+  m_AnchoredPosition: {x: -400, y: 170}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1443040867
@@ -1453,18 +1444,20 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4410ed47f9564c3439a119113f7ad059, type: 3}
-    m_FontSize: 25
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 300
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Alexander L\xF6vberg\n\nFredrik Holmgren\n\nMarcus Stillberger\n\nMax Huber"
+  m_Text: "Alexander L\xF6vberg - Project owner \n& Programming\n\nFredrik Holmgren
+    - Programming \n& Design \n\nMarcus Stillberger - Programming \n& Sound\n\nMax
+    Huber - CTO \n& Programming"
 --- !u!222 &1443040869
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1646,7 +1639,7 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 160}
+  m_AnchoredPosition: {x: 0, y: 220}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1621407550
@@ -1735,7 +1728,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -370, y: 160}
+  m_AnchoredPosition: {x: -370, y: 220}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1660305703
@@ -2013,10 +2006,10 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1869319051}
-  m_LocalRotation: {x: 0.10844842, y: -0.3767401, z: 0.03785969, w: 0.9191695}
-  m_LocalPosition: {x: 2.004, y: 9.02, z: -13.579}
+  m_LocalRotation: {x: 0.1598722, y: -0.40043703, z: 0.054499492, w: 0.9006225}
+  m_LocalPosition: {x: 23.245, y: -0.248, z: -6.862}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 13.118001, y: -44.472004, z: -0.69200003}
+  m_LocalEulerAnglesHint: {x: 19.323002, y: -48.089, z: -1.761}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -2113,90 +2106,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1916138994
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000012570565586, guid: 0e53d3e642ddabb4891213e5c592cc5b,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1916138995}
-  - 33: {fileID: 1916138998}
-  - 23: {fileID: 1916138997}
-  - 65: {fileID: 1916138996}
-  m_Layer: 0
-  m_Name: sm_walllamp (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
-  m_IsActive: 1
---- !u!4 &1916138995
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4000010157895362, guid: 0e53d3e642ddabb4891213e5c592cc5b,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1916138994}
-  m_LocalRotation: {x: 0, y: 0, z: -0, w: -1}
-  m_LocalPosition: {x: 2.731, y: 9.309915, z: -9.654}
-  m_LocalScale: {x: 2.1907299, y: 2.1907299, z: 2.1907299}
-  m_LocalEulerAnglesHint: {x: 0, y: 360, z: 0}
-  m_Children: []
-  m_Father: {fileID: 657508876}
-  m_RootOrder: 40
---- !u!65 &1916138996
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65000010948285554, guid: 0e53d3e642ddabb4891213e5c592cc5b,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1916138994}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.22224416, y: 0.30117744, z: 0.13969801}
-  m_Center: {x: 0, y: 0.05487129, z: 0.06125764}
---- !u!23 &1916138997
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 23000010617842524, guid: 0e53d3e642ddabb4891213e5c592cc5b,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1916138994}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: ddff87be681a28d40a2bc33f9100cd66, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1916138998
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 33000012934880408, guid: 0e53d3e642ddabb4891213e5c592cc5b,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1916138994}
-  m_Mesh: {fileID: 4300000, guid: d25e408c8f3d4064aba550a7bca9861d, type: 3}
 --- !u!1 &2015460447
 GameObject:
   m_ObjectHideFlags: 0
@@ -2310,72 +2219,6 @@ MonoBehaviour:
   quitText: {fileID: 1304245506}
   creditsMenu: {fileID: 2107692341}
   creditsText: {fileID: 1687495929}
---- !u!1 &2041545435
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1000014059609418, guid: 0e53d3e642ddabb4891213e5c592cc5b,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2041545436}
-  - 108: {fileID: 2041545437}
-  m_Layer: 0
-  m_Name: Point light (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2041545436
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4000010410956968, guid: 0e53d3e642ddabb4891213e5c592cc5b,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2041545435}
-  m_LocalRotation: {x: 0, y: 0, z: -0, w: -1}
-  m_LocalPosition: {x: 2.698, y: 9.309915, z: -9.199}
-  m_LocalScale: {x: 2.1907299, y: 2.1907299, z: 2.1907299}
-  m_LocalEulerAnglesHint: {x: 0, y: 360, z: 0}
-  m_Children: []
-  m_Father: {fileID: 657508876}
-  m_RootOrder: 39
---- !u!108 &2041545437
-Light:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 108000010070158330, guid: 0e53d3e642ddabb4891213e5c592cc5b,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2041545435}
-  m_Enabled: 1
-  serializedVersion: 7
-  m_Type: 2
-  m_Color: {r: 1, g: 0.97515213, b: 0.6397059, a: 1}
-  m_Intensity: 3.1
-  m_Range: 10
-  m_SpotAngle: 30
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 1
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Lightmapping: 2
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 2.3
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!1 &2052849623
 GameObject:
   m_ObjectHideFlags: 0
@@ -2417,7 +2260,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 500}
+  m_SizeDelta: {x: 1000, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2052849625
 MonoBehaviour:
