@@ -41,6 +41,7 @@ public class startMenuScript : MonoBehaviour {
     public void StartLevel() //starta spelet
     {
         SceneManager.LoadScene(1); //Om scenen man försöker ladda har ett namn, ange det här mellan "" istället för int-värdet
+        Time.timeScale = 1;
     }
 
     public void QuitGame() //stänga av spelet
