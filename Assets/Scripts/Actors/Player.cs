@@ -58,7 +58,7 @@ public class Player : MonoBehaviour {
 	}
 
 	private void Crouch() {
-		isCrouching = Input.GetKey(KeyCode.C);
+		isCrouching = Input.GetButton("Crouch");
 		if(isCrouching) {
 			if(crouchLerp < 1)
 				crouchLerp += crouchSpeed * Time.deltaTime;
