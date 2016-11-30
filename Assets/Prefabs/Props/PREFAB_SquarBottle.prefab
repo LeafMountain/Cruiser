@@ -21,13 +21,13 @@ GameObject:
   - 4: {fileID: 4000011749286970}
   - 33: {fileID: 33000012556873740}
   - 23: {fileID: 23000014051646046}
-  - 95: {fileID: 95000010351731342}
+  - 65: {fileID: 65000010361988688}
   m_Layer: 0
   m_Name: PREFAB_SquarBottle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4000011749286970
 Transform:
@@ -36,8 +36,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000014198433644}
   m_LocalRotation: {x: -0, y: -0.59178233, z: -0, w: 0.80609787}
-  m_LocalPosition: {x: -13.761, y: -14.898, z: -13.169}
-  m_LocalScale: {x: 20.974747, y: 37.098587, z: 20.974743}
+  m_LocalPosition: {x: 4.4377685, y: -10.658, z: 13.466}
+  m_LocalScale: {x: 15, y: 25, z: 15}
   m_LocalEulerAnglesHint: {x: 0, y: -72.874, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -78,20 +78,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000014198433644}
   m_Mesh: {fileID: 4300000, guid: f4528b0c9d3d8214aa8348280a734723, type: 3}
---- !u!95 &95000010351731342
-Animator:
-  serializedVersion: 3
+--- !u!65 &65000010361988688
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000014198433644}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: f4528b0c9d3d8214aa8348280a734723, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000056, y: 0.0133963395, z: 0.009999389}
+  m_Center: {x: 0, y: 0, z: 0}

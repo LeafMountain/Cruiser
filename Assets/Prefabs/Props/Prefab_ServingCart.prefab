@@ -21,13 +21,13 @@ GameObject:
   - 4: {fileID: 4000010141754450}
   - 33: {fileID: 33000011052000582}
   - 23: {fileID: 23000014288832670}
-  - 95: {fileID: 95000014145147664}
+  - 65: {fileID: 65000012527763380}
   m_Layer: 0
   m_Name: Prefab_ServingCart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4000010141754450
 Transform:
@@ -35,10 +35,10 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013217471498}
-  m_LocalRotation: {x: -0, y: 0.43630934, z: -0, w: 0.8997967}
-  m_LocalPosition: {x: -12.95, y: -17.143, z: -29.56}
-  m_LocalScale: {x: 1.2545276, y: 1.2545274, z: 1.2545274}
-  m_LocalEulerAnglesHint: {x: 0, y: 51.468002, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.62, y: -10.358, z: 14.123}
+  m_LocalScale: {x: 1.08, y: 1.08, z: 1.08}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -79,20 +79,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013217471498}
   m_Mesh: {fileID: 4300000, guid: 1a7c558e776070649b0a03c41d4a8240, type: 3}
---- !u!95 &95000014145147664
-Animator:
-  serializedVersion: 3
+--- !u!65 &65000012527763380
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013217471498}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 1a7c558e776070649b0a03c41d4a8240, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0435213, y: 0.8639239, z: 0.61270267}
+  m_Center: {x: 0, y: 0, z: 0}

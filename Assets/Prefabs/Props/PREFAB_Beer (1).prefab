@@ -21,13 +21,13 @@ GameObject:
   - 4: {fileID: 4000013266600788}
   - 33: {fileID: 33000011229151524}
   - 23: {fileID: 23000011949923314}
-  - 95: {fileID: 95000012028560622}
+  - 65: {fileID: 65000012441590682}
   m_Layer: 0
   m_Name: PREFAB_Beer (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4000013266600788
 Transform:
@@ -36,8 +36,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013381227742}
   m_LocalRotation: {x: -0, y: -0.15827043, z: -0, w: 0.9873958}
-  m_LocalPosition: {x: -15.271, y: -14.938, z: -13.404}
-  m_LocalScale: {x: 0.74585783, y: 0.7458578, z: 0.7458578}
+  m_LocalPosition: {x: 4.652392, y: -10.664, z: 13.461798}
+  m_LocalScale: {x: 0.58304876, y: 0.5830487, z: 0.5830487}
   m_LocalEulerAnglesHint: {x: 0, y: -17.911001, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -78,20 +78,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013381227742}
   m_Mesh: {fileID: 4300000, guid: e4449e411723d684ca7bda8fe66adfe1, type: 3}
---- !u!95 &95000012028560622
-Animator:
-  serializedVersion: 3
+--- !u!65 &65000012441590682
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013381227742}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: e4449e411723d684ca7bda8fe66adfe1, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15263368, y: 0.5531146, z: 0.15263183}
+  m_Center: {x: 0, y: 0, z: 0}
