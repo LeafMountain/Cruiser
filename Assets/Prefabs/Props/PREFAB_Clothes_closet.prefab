@@ -21,13 +21,13 @@ GameObject:
   - 4: {fileID: 4000013350715962}
   - 33: {fileID: 33000014268912910}
   - 23: {fileID: 23000012931557802}
-  - 95: {fileID: 95000012655536906}
+  - 65: {fileID: 65000011072040444}
   m_Layer: 0
-  m_Name: "PREFAB_Kl\xE4dsk\xE5p"
+  m_Name: PREFAB_Clothes_closet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4000013350715962
 Transform:
@@ -36,8 +36,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011302393992}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.53, y: -16.48, z: -29.442}
-  m_LocalScale: {x: 1.5667856, y: 0.85088205, z: 1}
+  m_LocalPosition: {x: 4.9237876, y: -9.857, z: 12.958}
+  m_LocalScale: {x: 1.218291, y: 0.6616234, z: 0.7775736}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -78,20 +78,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011302393992}
   m_Mesh: {fileID: 4300000, guid: 400b6d8443b688f4499d5a396aaecc38, type: 3}
---- !u!95 &95000012655536906
-Animator:
-  serializedVersion: 3
+--- !u!65 &65000011072040444
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011302393992}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 400b6d8443b688f4499d5a396aaecc38, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  serializedVersion: 2
+  m_Size: {x: 1.92219, y: 2.924474, z: 0.7676597}
+  m_Center: {x: 0, y: 0, z: 0}

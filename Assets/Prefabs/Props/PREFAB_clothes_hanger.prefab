@@ -21,13 +21,13 @@ GameObject:
   - 4: {fileID: 4000014133204182}
   - 33: {fileID: 33000014251293504}
   - 23: {fileID: 23000012914918818}
-  - 95: {fileID: 95000014198901410}
+  - 65: {fileID: 65000010004472716}
   m_Layer: 0
-  m_Name: "PREFAB_Kl\xE4dh\xE4ngare"
+  m_Name: PREFAB_clothes_hanger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4000014133204182
 Transform:
@@ -36,8 +36,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012076696450}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 16.275, y: -15.678, z: -29.605}
-  m_LocalScale: {x: 1.2081256, y: 1.2081256, z: 1.2081256}
+  m_LocalPosition: {x: 4.55, y: -9.165, z: 12.83}
+  m_LocalScale: {x: 0.5276529, y: 0.5276529, z: 0.5276529}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -78,20 +78,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012076696450}
   m_Mesh: {fileID: 4300000, guid: 9e4a52db217139c49806e642b25c989f, type: 3}
---- !u!95 &95000014198901410
-Animator:
-  serializedVersion: 3
+--- !u!65 &65000010004472716
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012076696450}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9e4a52db217139c49806e642b25c989f, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  serializedVersion: 2
+  m_Size: {x: 0.021203613, y: 0.404924, z: 0.65685225}
+  m_Center: {x: 0, y: 0, z: 0}

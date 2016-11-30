@@ -21,13 +21,13 @@ GameObject:
   - 4: {fileID: 4000010902041294}
   - 33: {fileID: 33000012052077564}
   - 23: {fileID: 23000012158480314}
-  - 95: {fileID: 95000012382503030}
+  - 65: {fileID: 65000010944539982}
   m_Layer: 0
   m_Name: PREFAB_WineGlass (119)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4000010902041294
 Transform:
@@ -36,8 +36,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010907348420}
   m_LocalRotation: {x: -0, y: 0.74651295, z: -0, w: 0.66537094}
-  m_LocalPosition: {x: 0.016105447, y: 0.0028733455, z: 0.002917296}
-  m_LocalScale: {x: 0.014396048, y: 0.009535272, z: 0.014396051}
+  m_LocalPosition: {x: 4.575, y: -9.489, z: 13.993}
+  m_LocalScale: {x: 0.34993342, y: 0.23177944, z: 0.34993327}
   m_LocalEulerAnglesHint: {x: 0, y: 90.796005, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -78,20 +78,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010907348420}
   m_Mesh: {fileID: 4300000, guid: 778ec420c76d2014797968c2803d7c21, type: 3}
---- !u!95 &95000012382503030
-Animator:
-  serializedVersion: 3
+--- !u!65 &65000010944539982
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010907348420}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 778ec420c76d2014797968c2803d7c21, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2567915, y: 0.6746405, z: 0.24421994}
+  m_Center: {x: 0, y: 0, z: 0}
