@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class Player : MonoBehaviour {
 	
@@ -8,7 +7,16 @@ public class Player : MonoBehaviour {
 	Transform trans;
 	Transform cam;
 
+	public static bool PlayerMoveable {
+		get {
+			return freeToMove;
+		} set {
+			freeToMove = value;
+		}
+	}
+
 	// Parameters
+	static bool freeToMove = true;
 	public float moveSpeed = 2.5f;
 	public float jumpSpeed = 6f;
 	public float gravity = 20f;
@@ -30,12 +38,15 @@ public class Player : MonoBehaviour {
 		controller = GetComponent<CharacterController>();
 		trans = transform;
 		cam = trans.GetChild(0);
+
 		height = controller.height;
 		standHeight = height;
 		crouchHeight = height / 2f;
 	}
 
 	void Update() {
+		if(!freeToMove) return; // If e.g reading a letter, listening to a voiceclip - freeze movement.
+
 		// Get input values
 		x = Input.GetAxis("Horizontal");
 		y = Input.GetAxis("Vertical");
