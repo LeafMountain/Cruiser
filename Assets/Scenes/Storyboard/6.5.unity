@@ -97,6 +97,16 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114000012250647690, guid: 007ae5e184b2b0344a34dee27dc849c7,
+        type: 2}
+      propertyPath: scenes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012250647690, guid: 007ae5e184b2b0344a34dee27dc849c7,
+        type: 2}
+      propertyPath: answers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012482226400, guid: 007ae5e184b2b0344a34dee27dc849c7, type: 2}
       propertyPath: m_LocalPosition.x
       value: 10.855922
@@ -148,6 +158,27 @@ Prefab:
         type: 2}
       propertyPath: fontColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012250647690, guid: 007ae5e184b2b0344a34dee27dc849c7,
+        type: 2}
+      propertyPath: answers.Array.data[1]
+      value: slakjhsflk
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012250647690, guid: 007ae5e184b2b0344a34dee27dc849c7,
+        type: 2}
+      propertyPath: answers.Array.data[2]
+      value: oiewurpq
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012250647690, guid: 007ae5e184b2b0344a34dee27dc849c7,
+        type: 2}
+      propertyPath: scenes.Array.data[0]
+      value: 
+      objectReference: {fileID: 102900000, guid: 01659e5337665764c8c829fcdcf7b4ba,
+        type: 3}
+    - target: {fileID: 114000012250647690, guid: 007ae5e184b2b0344a34dee27dc849c7,
+        type: 2}
+      propertyPath: answers.Array.data[0]
+      value: Go to the deck
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 007ae5e184b2b0344a34dee27dc849c7, type: 2}
