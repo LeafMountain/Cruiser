@@ -8,8 +8,10 @@ public class DisableEnableObject : MonoBehaviour {
 	
 	public void EnableDisable ()
     {
-        enableThis.SetActive(true);
-        disableThis.SetActive(false);
+        if (enableThis != null)
+            enableThis.SetActive(true);
+        if(disableThis != null)
+            disableThis.SetActive(false);
 	}
 
     void Start()

@@ -10218,6 +10218,22 @@ Prefab:
       propertyPath: m_Name
       value: GoingToBed
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012202806270, guid: 2b6dbe9aef3456748a452798dbb32c5c,
+        type: 2}
+      propertyPath: m_Text
+      value: Cruiser
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012202806270, guid: 2b6dbe9aef3456748a452798dbb32c5c,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 4410ed47f9564c3439a119113f7ad059,
+        type: 3}
+    - target: {fileID: 114000013978636562, guid: 2b6dbe9aef3456748a452798dbb32c5c,
+        type: 2}
+      propertyPath: charMove
+      value: 
+      objectReference: {fileID: 2145105799}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b6dbe9aef3456748a452798dbb32c5c, type: 2}
   m_IsPrefabParent: 0
@@ -12008,3 +12024,9 @@ GameObject:
   m_PrefabParentObject: {fileID: 1000012867085108, guid: 05538df75cde28040a5583593ad7ccb3,
     type: 2}
   m_PrefabInternal: {fileID: 140132502}
+--- !u!114 &2145105799 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114000013165830584, guid: 05538df75cde28040a5583593ad7ccb3,
+    type: 2}
+  m_PrefabInternal: {fileID: 140132502}
+  m_Script: {fileID: 11500000, guid: d0203482472fb9b488373754926a28d5, type: 3}

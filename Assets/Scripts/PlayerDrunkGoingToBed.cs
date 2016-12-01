@@ -6,6 +6,7 @@ public class PlayerDrunkGoingToBed : MonoBehaviour {
     Collider col;
     Camera cam;
     FadeScreen fade;
+    public Player charMove;
     public GameObject newCam;
 
 
@@ -28,6 +29,7 @@ public class PlayerDrunkGoingToBed : MonoBehaviour {
             {
                 cam.transform.position = Vector3.Lerp(cam.transform.position, newCam.transform.position, Time.deltaTime * 1.5f);
                 cam.transform.rotation = Quaternion.Lerp(cam.transform.rotation, newCam.transform.rotation, Time.deltaTime * 1.5f);
+                charMove.enabled = false;
             }
             else
             {
