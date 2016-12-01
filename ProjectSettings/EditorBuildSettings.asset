@@ -11,3 +11,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Day 1.unity
   - enabled: 1
     path: Assets/Scenes/Preliminary.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/Storyboard1.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/Storyboard2.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/Storyboard3.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/Storyboard4.unity

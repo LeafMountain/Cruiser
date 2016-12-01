@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011556665226}
+  m_IsPrefabParent: 1
+--- !u!1 &1000011556665226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012482226400}
+  - 114: {fileID: 114000012250647690}
+  m_Layer: 0
+  m_Name: StoryboardChoises
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012482226400
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011556665226}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.855922, y: -4.86717, z: 24.172718}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000012250647690
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011556665226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa46d5232b8ec84a8d93da2e077416f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  question: lisuhafpiuhsdf
+  answers:
+  - kjlhaskjdfh
+  - slakjhsflk
+  - oiewurpq
+  scenes:
+  - {fileID: 102900000, guid: b4685837d7ca6914bb22461b1bfa3a0e, type: 3}
+  - {fileID: 102900000, guid: 49ea7055abf3c674e84ffedd586cb714, type: 3}
+  - {fileID: 102900000, guid: da363f0ef09175345a6c935e83d334c4, type: 3}
+  fontColor: {r: 0, g: 0, b: 0, a: 0}
