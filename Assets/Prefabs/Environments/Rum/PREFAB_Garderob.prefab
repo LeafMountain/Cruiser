@@ -112,6 +112,7 @@ GameObject:
   - 33: {fileID: 33000011900118560}
   - 23: {fileID: 23000013413503252}
   - 95: {fileID: 95000014129634702}
+  - 65: {fileID: 65000014142245324}
   m_Layer: 0
   m_Name: Disk
   m_TagString: Untagged
@@ -1298,7 +1299,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011488937714}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.344516, y: -2.3393388, z: -12.180594}
+  m_LocalPosition: {x: -62.870956, y: 36.64564, z: 15.476585}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -3290,6 +3291,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.22224416, y: 0.30117744, z: 0.13969801}
   m_Center: {x: 0, y: 0.05487129, z: 0.06125764}
+--- !u!65 &65000014142245324
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010585219764}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6592065, y: 1.2452226, z: 9.198305}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &95000010099587450
 Animator:
   serializedVersion: 3
