@@ -5,7 +5,7 @@ using System.Collections;
 public class FadeScreen : MonoBehaviour {
 
     public Image blackScreen;
-    public Text title;
+    public Image title;
     public Color fadeToColor;
     public Color textColor;
 
