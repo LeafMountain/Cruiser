@@ -10,4 +10,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Day 1.unity
   - enabled: 1
+    path: Assets/Scenes/Debug/Max2.unity
+  - enabled: 1
     path: Assets/Scenes/Preliminary.unity
