@@ -26,13 +26,14 @@ public class PickUpObject : MonoBehaviour {
 		}
 	}
 
-	void carry(GameObject o) {
-        o.transform.position = Vector3.Lerp(o.transform.position, Camera.main.transform.position + Camera.main.transform.forward * distance, Time.deltaTime * smoothing);
-		o.transform.rotation = Quaternion.identity;
-	}
+	void carry(GameObject obj) {
+        obj.transform.position = Vector3.Lerp(obj.transform.position, Camera.main.transform.position + Camera.main.transform.forward * distance, Time.deltaTime * smoothing);
+        obj.transform.rotation = Camera.main.transform.rotation; //Objektet roteras jämnlikt med kamerans vinkel.
+        //obj.transform.rotation = Quaternion.identity; //Objektet roterar ej med kameran.
+    }
 
 	void pickup() {
-		if(Input.GetKey (KeyCode.F)) {
+		if(Input.GetKeyDown (KeyCode.F)) {
 			float x = Screen.width / 2;
 			float y = Screen.height / 2;
 			
@@ -44,13 +45,13 @@ public class PickUpObject : MonoBehaviour {
 					carrying = true;
 					carriedObject = p.gameObject;
 					p.gameObject.GetComponent<Rigidbody>().useGravity = false;
-				}
+                }
 			}
 		}
 	}
 
 	void checkDrop() {
-		if(Input.GetKey (KeyCode.F)) {
+		if(Input.GetKeyDown (KeyCode.F)) {
 			dropObject();
 		}
 	}
@@ -63,7 +64,7 @@ public class PickUpObject : MonoBehaviour {
 
     void checkToss()
     {
-        if (Input.GetKeyDown (KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             tossObject();
         }
@@ -72,7 +73,7 @@ public class PickUpObject : MonoBehaviour {
     {
         carrying = false;
         carriedObject.gameObject.GetComponent<Rigidbody>().useGravity = true;
-        //carriedObject.gameObject.GetComponent<Rigidbody>().AddRelativeForce(forceStrength, ForceMode.Impulse);
+        carriedObject.gameObject.GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * forceStrength);
         carriedObject = null;
     }
 }
