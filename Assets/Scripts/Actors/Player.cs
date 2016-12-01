@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿using UnityEngine; using UnityEngine.UI;
 
 public class Player : MonoBehaviour {
 	
@@ -6,6 +6,8 @@ public class Player : MonoBehaviour {
 	CharacterController controller;
 	Transform trans;
 	Transform cam;
+	public GameObject playerFilters;
+	public Image[] filters;
 
 	public static bool PlayerMoveable {
 		get {
@@ -39,9 +41,20 @@ public class Player : MonoBehaviour {
 		trans = transform;
 		cam = trans.GetChild(0);
 
+		filters = playerFilters.transform.GetComponentsInChildren<Image>(true);
+		int filter = UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex;
+        SetPlayerFilter(filter);
+
 		height = controller.height;
 		standHeight = height;
 		crouchHeight = height / 2f;
+	}
+
+	void SetPlayerFilter(int n) {
+		foreach(Image filter in filters) {
+			filter.enabled = false;
+		}
+		filters[n - 1].enabled = true;
 	}
 
 	void Update() {
