@@ -14,7 +14,7 @@ public class DoorInteraction : MonoBehaviour {
             if (Physics.Raycast(ray, out hit, interactLength))
             {
                 if (hit.collider.CompareTag("Door")){
-                    hit.collider.transform.parent.GetComponent<DoorScript>().ChangeDoorState();
+                    hit.collider.transform.GetComponent<DoorScript>().ChangeDoorState();
                 }
             }
         }
