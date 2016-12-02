@@ -92,6 +92,8 @@ GameObject:
   - 124: {fileID: 124000013233368598}
   - 92: {fileID: 92000012601175288}
   - 81: {fileID: 81000010931525408}
+  - 114: {fileID: 114000012379120480}
+  - 114: {fileID: 114000011635112032}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -117,7 +119,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1000013403240524
 GameObject:
   m_ObjectHideFlags: 1
@@ -156,10 +158,10 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012867085108}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.038, y: 0.48, z: -0.296}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 4.81, y: -4.014, z: 25.641}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_Children:
   - {fileID: 4000011301380156}
   - {fileID: 224000010723268350}
@@ -361,6 +363,22 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114000011635112032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011134297482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0217eec26a5f5d4b9757e3b3855b760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carrying: 0
+  carriedObject: {fileID: 0}
+  distance: 5
+  smoothing: 10
+  forceStrength: 100
 --- !u!114 &114000012319001714
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -379,6 +397,18 @@ MonoBehaviour:
   m_InputActionsPerSecond: 10
   m_RepeatDelay: 0.5
   m_ForceModuleActive: 0
+--- !u!114 &114000012379120480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011134297482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7007a1e1b6809a4da59aec86b5377ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactLength: 5
 --- !u!114 &114000012523053582
 MonoBehaviour:
   m_ObjectHideFlags: 1
