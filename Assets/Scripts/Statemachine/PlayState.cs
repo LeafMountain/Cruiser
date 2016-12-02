@@ -11,8 +11,11 @@ public class PlayState : IGameState {
         Time.timeScale = 1;
     }
 
-	public void StateUpdate ()
+    public void StateUpdate ()
     {
+        if (stateManager.pauseMenu.active)
+            stateManager.pauseMenu.SetActive(false);
+
         if (Input.GetKeyDown(KeyCode.Escape))
             stateManager.ChangeState(new PauseState(stateManager));
 	}
