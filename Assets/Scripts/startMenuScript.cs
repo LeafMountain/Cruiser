@@ -65,6 +65,6 @@ public class startMenuScript : MonoBehaviour {
 
     public void GoToStoryboard() //stänga av spelet
     {
-        Application.LoadLevel(22);
+        Application.LoadLevel(23);
     }
 }
