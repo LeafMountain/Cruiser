@@ -1,27 +1,32 @@
-﻿using UnityEngine; using UnityEngine.SceneManagement; using System.Collections;
+﻿using UnityEngine;
+using System.Collections;
 
 public class ErinStory : MonoBehaviour {
-	
-	public AudioClip voiceClip;
-	private AudioSource audioSource;
-	private bool onlyOnce = false;
 
-	void Start() {
-		audioSource = GetComponent<AudioSource>();
-	}
+	public GameObject waterBottle;
+	public AudioClip voiceClip;
+
+	private bool hasPlayed = false; // Only allow this event to occur once per gameplay.
+	private AudioSource playerAudioSource;
 
 	void OnTriggerEnter(Collider col) {
-		if(onlyOnce) return;
-		if(col.gameObject.layer == LayerMask.NameToLayer("Pickupable")) {
-			onlyOnce = true;
-			StartCoroutine(PlayClipAndSwitchScene());
+		if(hasPlayed) return;
+
+		if(col.CompareTag("Player")) {
+			PickUpObject carriedObject = col.gameObject.GetComponent<PickUpObject>();
+			if(carriedObject.carrying && carriedObject.carriedObject == waterBottle) {
+				hasPlayed = true;
+				Destroy(waterBottle);
+				carriedObject.carriedObject = null;
+				carriedObject.carrying = false;
+				playerAudioSource = col.gameObject.GetComponent<AudioSource>();
+				PlayClip();
+			}
 		}
 	}
 
-	IEnumerator PlayClipAndSwitchScene() {
-		audioSource.clip = voiceClip;
-		audioSource.Play();
-		yield return new WaitForSeconds(voiceClip.length);
-		SceneManager.LoadScene(29);
+	void PlayClip() {
+		playerAudioSource.clip = voiceClip;
+		playerAudioSource.Play();
 	}
 }
