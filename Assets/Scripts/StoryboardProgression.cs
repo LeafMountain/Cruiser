@@ -15,7 +15,6 @@ public class StoryboardProgression : MonoBehaviour {
     void Awake()
     {
         rect = new Rect(0 + 10, Screen.height - 100, Screen.width, Screen.height);
-
     }
 
     void Start()
@@ -41,7 +40,7 @@ public class StoryboardProgression : MonoBehaviour {
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
-            SceneManager.LoadScene(scenes[0].name);
+            Application.LoadLevel(scenes[0].name);
         else if (Input.GetKeyDown(KeyCode.Alpha2) && scenes[1] != null)
             SceneManager.LoadScene(scenes[1].name);
         else if (Input.GetKeyDown(KeyCode.Alpha3) && scenes[2] != null)
