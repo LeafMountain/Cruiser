@@ -62,4 +62,9 @@ public class startMenuScript : MonoBehaviour {
         quitText.enabled = true;
         creditsText.enabled = true;
     }
+
+    public void GoToStoryboard() //stänga av spelet
+    {
+        Application.LoadLevel(23);
+    }
 }
