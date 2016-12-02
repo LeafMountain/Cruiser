@@ -26,7 +26,6 @@ public class VoiceStoryProgression : MonoBehaviour {
 				if(col.GetComponent<BoxCollider>().enabled == true) {
 					if(currentIndex+1 < day2voice.Length)
 						day2voice[++currentIndex].SetActive(true);
-					day2voice[currentIndex - 1].SetActive(false);
 				}
 			}
 		}
