@@ -21,13 +21,12 @@ GameObject:
   - 4: {fileID: 4000014112361270}
   - 33: {fileID: 33000014254071706}
   - 23: {fileID: 23000010365940080}
-  - 95: {fileID: 95000013390297066}
   m_Layer: 0
   m_Name: Prefab_fork
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4000014112361270
 Transform:
@@ -36,8 +35,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013450926276}
   m_LocalRotation: {x: -0, y: -0.30846104, z: -0, w: 0.951237}
-  m_LocalPosition: {x: 0.01559947, y: -0.00008512985, z: -0.008646195}
-  m_LocalScale: {x: 0.68207574, y: 0.45177537, z: 0.6820758}
+  m_LocalPosition: {x: 4.526, y: -9.514, z: 14.141}
+  m_LocalScale: {x: 17.247002, y: 17, z: 17.246979}
   m_LocalEulerAnglesHint: {x: 0, y: -41.858, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -78,20 +77,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013450926276}
   m_Mesh: {fileID: 4300000, guid: 3cc404135a7a4f343bbaecd9811c94fc, type: 3}
---- !u!95 &95000013390297066
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013450926276}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 3cc404135a7a4f343bbaecd9811c94fc, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1

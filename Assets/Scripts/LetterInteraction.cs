@@ -1,11 +1,15 @@
-﻿using UnityEngine;
+﻿using UnityEngine; using UnityEngine.UI;
 
 public class LetterInteraction : MonoBehaviour {
-
+	
 	private Transform cam;
+	Canvas canvas;
+	static Image letterSprite;
 
 	void Start() {
 		cam = transform.GetChild(0);
+		canvas = transform.GetChild(1).GetComponent<Canvas>();
+		letterSprite = canvas.transform.GetChild(0).GetComponent<Image>();
 	}
 
 	void Update() {
@@ -15,6 +19,12 @@ public class LetterInteraction : MonoBehaviour {
 				if(hitInfo.collider.CompareTag("Letter"))
 					hitInfo.collider.GetComponent<Letter>().ReadLetter();
 			}
+		}
+	}
+
+	public static bool LetterSprite {
+		set {
+			letterSprite.enabled = value;
 		}
 	}
 }

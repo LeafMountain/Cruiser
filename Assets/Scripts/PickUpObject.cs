@@ -3,8 +3,8 @@ using System.Collections;
 
 public class PickUpObject : MonoBehaviour {
 
-	bool carrying;
-	GameObject carriedObject;
+	[HideInInspector] public bool carrying;
+	[HideInInspector] public GameObject carriedObject;
 	public float distance;
 	public float smoothing;
     public float forceStrength;
@@ -36,8 +36,8 @@ public class PickUpObject : MonoBehaviour {
 		if(Input.GetKeyDown (KeyCode.F)) {
 			float x = Screen.width / 2;
 			float y = Screen.height / 2;
-
-            Ray ray = Camera.main.ScreenPointToRay(new Vector3(x, y));
+			
+			Ray ray = Camera.main.ScreenPointToRay(new Vector3(x, y));
             RaycastHit hit;
 			if(Physics.Raycast(ray, out hit)) {
 				Pickapable p = hit.collider.GetComponent<Pickapable>();

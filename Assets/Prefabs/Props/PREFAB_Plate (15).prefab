@@ -21,13 +21,13 @@ GameObject:
   - 4: {fileID: 4000014138547272}
   - 33: {fileID: 33000011927881308}
   - 23: {fileID: 23000013732923612}
-  - 95: {fileID: 95000010869371794}
+  - 65: {fileID: 65000010210594294}
   m_Layer: 0
   m_Name: PREFAB_Plate (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4000014138547272
 Transform:
@@ -36,8 +36,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013347064834}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.022210158, y: 0, z: -0.0029826479}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 4.562, y: -9.557, z: 14.115}
+  m_LocalScale: {x: 19.04, y: 19.039995, z: 19.039995}
   m_LocalEulerAnglesHint: {x: 0, y: -5.597, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -78,20 +78,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013347064834}
   m_Mesh: {fileID: 4300000, guid: 2c68957cccf78b1499429f92fe91cf94, type: 3}
---- !u!95 &95000010869371794
-Animator:
-  serializedVersion: 3
+--- !u!65 &65000010210594294
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013347064834}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 2c68957cccf78b1499429f92fe91cf94, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0149629805, y: 0.0007928715, z: 0.014230637}
+  m_Center: {x: 0, y: 0, z: 0}

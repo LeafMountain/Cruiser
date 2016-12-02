@@ -1,0 +1,905 @@
+fileFormatVersion: 2
+guid: d980e0c10f5ce4a41a5f1ce6b28f70bd
+timeCreated: 1480587573
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bind_Head
+    100004: Bind_HeadTop_End
+    100006: Bind_Hips
+    100008: Bind_LeftArm
+    100010: Bind_LeftEye
+    100012: Bind_LeftFoot
+    100014: Bind_LeftForeArm
+    100016: Bind_LeftHand
+    100018: Bind_LeftHandIndex1
+    100020: Bind_LeftHandIndex2
+    100022: Bind_LeftHandIndex3
+    100024: Bind_LeftHandIndex4
+    100026: Bind_LeftHandMiddle1
+    100028: Bind_LeftHandMiddle2
+    100030: Bind_LeftHandMiddle3
+    100032: Bind_LeftHandMiddle4
+    100034: Bind_LeftHandPinky1
+    100036: Bind_LeftHandPinky2
+    100038: Bind_LeftHandPinky3
+    100040: Bind_LeftHandPinky4
+    100042: Bind_LeftHandRing1
+    100044: Bind_LeftHandRing2
+    100046: Bind_LeftHandRing3
+    100048: Bind_LeftHandRing4
+    100050: Bind_LeftHandThumb1
+    100052: Bind_LeftHandThumb2
+    100054: Bind_LeftHandThumb3
+    100056: Bind_LeftHandThumb4
+    100058: Bind_LeftLeg
+    100060: Bind_LeftShoulder
+    100062: Bind_LeftToe_End
+    100064: Bind_LeftToeBase
+    100066: Bind_LeftUpLeg
+    100068: Bind_Neck
+    100070: Bind_RightArm
+    100072: Bind_RightEye
+    100074: Bind_RightFoot
+    100076: Bind_RightForeArm
+    100078: Bind_RightHand
+    100080: Bind_RightHandIndex1
+    100082: Bind_RightHandIndex2
+    100084: Bind_RightHandIndex3
+    100086: Bind_RightHandIndex4
+    100088: Bind_RightHandMiddle1
+    100090: Bind_RightHandMiddle2
+    100092: Bind_RightHandMiddle3
+    100094: Bind_RightHandMiddle4
+    100096: Bind_RightHandPinky1
+    100098: Bind_RightHandPinky2
+    100100: Bind_RightHandPinky3
+    100102: Bind_RightHandPinky4
+    100104: Bind_RightHandRing1
+    100106: Bind_RightHandRing2
+    100108: Bind_RightHandRing3
+    100110: Bind_RightHandRing4
+    100112: Bind_RightHandThumb1
+    100114: Bind_RightHandThumb2
+    100116: Bind_RightHandThumb3
+    100118: Bind_RightHandThumb4
+    100120: Bind_RightLeg
+    100122: Bind_RightShoulder
+    100124: Bind_RightToe_End
+    100126: Bind_RightToeBase
+    100128: Bind_RightUpLeg
+    100130: Bind_Root
+    100132: Bind_Spine
+    100134: Bind_Spine1
+    100136: Bind_Spine2
+    100138: Character
+    100140: CheekPuff_CTRL
+    100142: CheekPuff_GRP
+    100144: CheekPuff_POS_GRP
+    100146: Facial_CTRLS_GRP
+    100148: Facial_CTRLs_Mover
+    100150: Facial_Hookup
+    100152: FacialControl_POS_GRP
+    100154: FK_LeftArm
+    100156: FK_LeftEye
+    100158: FK_LeftFoot
+    100160: FK_LeftForeArm
+    100162: FK_LeftHand
+    100164: FK_LeftLeg
+    100166: FK_LeftToe_End
+    100168: FK_LeftToeBase
+    100170: FK_LeftUpLeg
+    100172: FK_RightArm
+    100174: FK_RightEye
+    100176: FK_RightFoot
+    100178: FK_RightForeArm
+    100180: FK_RightHand
+    100182: FK_RightLeg
+    100184: FK_RightToe_End
+    100186: FK_RightToeBase
+    100188: FK_RightUpLeg
+    100190: Frown_CTRL
+    100192: Frown_GRP
+    100194: Frown_POS_GRP
+    100196: IK_LeftArm
+    100198: IK_LeftEye
+    100200: IK_LeftFoot
+    100202: IK_LeftForeArm
+    100204: IK_LeftHand
+    100206: IK_LeftLeg
+    100208: IK_LeftToe_End
+    100210: IK_LeftToeBase
+    100212: IK_LeftUpLeg
+    100214: IK_RightArm
+    100216: IK_RightEye
+    100218: IK_RightFoot
+    100220: IK_RightForeArm
+    100222: IK_RightHand
+    100224: IK_RightLeg
+    100226: IK_RightToe_End
+    100228: IK_RightToeBase
+    100230: IK_RightUpLeg
+    100232: JawInOut_CTRL
+    100234: JawInOut_GRP
+    100236: JawInOut_POS_GRP
+    100238: JawPos_CTRL
+    100240: JawPos_GRP
+    100242: JawPos_POS_GRP
+    100244: JawRot_CTRL
+    100246: JawRot_GRP
+    100248: JawRot_POS_GRP
+    100250: LeftBrow_CTRL
+    100252: LeftBrow_GRP
+    100254: LeftBrow_POS_GRP
+    100256: LeftBrowOuterLower_CTRL
+    100258: LeftBrowOuterLower_GRP
+    100260: LeftBrowOuterLower_POS_GRP
+    100262: LeftEye_Aim_CTRL_GuideCurve_Cluster2Handle
+    100264: LeftEyeBlink_CTRL
+    100266: LeftEyeBlink_GRP
+    100268: LeftEyeBlink_POS_GRP
+    100270: LeftFoot_IK_BakingLOC
+    100272: LeftForeArm_IK_BakingLOC
+    100274: LeftForeArm_IK_CTRL_GuideCurve_Cluster2Handle
+    100276: LeftLeg_IK_BakingLOC
+    100278: LeftLeg_IK_CTRL_GuideCurve_Cluster2Handle
+    100280: LowerLipDown_CTRL
+    100282: LowerLipDown_GRP
+    100284: LowerLipDown_POS_GRP
+    100286: LowerLipInOut_CTRL
+    100288: LowerLipInOut_GRP
+    100290: LowerLipInOut_POS_GRP
+    100292: Mesh_Body
+    100294: Mesh_Bottoms
+    100296: Mesh_Eyelashes
+    100298: Mesh_Eyes
+    100300: Mesh_GRP
+    100302: Mesh_Hair
+    100304: Mesh_Tops
+    100306: MouthNarrow_CTRL
+    100308: MouthNarrow_GRP
+    100310: MouthNarrow_POS_GRP
+    100312: MouthPosition_CTRL
+    100314: MouthPosition_GRP
+    100316: MouthPosition_POS_GRP
+    100318: NoseScrunch_CTRL
+    100320: NoseScrunch_GRP
+    100322: NoseScrunch_POS_GRP
+    100324: RightBrow_CTRL
+    100326: RightBrow_GRP
+    100328: RightBrow_POS_GRP
+    100330: RightBrowOuterLower_CTRL
+    100332: RightBrowOuterLower_GRP
+    100334: RightBrowOuterLower_POS_GRP
+    100336: RightEye_Aim_CTRL_GuideCurve_Cluster2Handle
+    100338: RightEyeBlink_CTRL
+    100340: RightEyeBlink_GRP
+    100342: RightEyeBlink_POS_GRP
+    100344: RightFoot_IK_BakingLOC
+    100346: RightForeArm_IK_BakingLOC
+    100348: RightForeArm_IK_CTRL_GuideCurve_Cluster2Handle
+    100350: RightLeg_IK_BakingLOC
+    100352: RightLeg_IK_CTRL_GuideCurve_Cluster2Handle
+    100354: Smile_CTRL
+    100356: Smile_GRP
+    100358: Smile_POS_GRP
+    100360: Squint_CTRL
+    100362: Squint_GRP
+    100364: Squint_POS_GRP
+    100366: Sync_CTRL
+    100368: Sync_GRP
+    100370: Sync_POS_GRP
+    100372: Tongue_CTRL
+    100374: Tongue_GRP
+    100376: Tongue_POS_GRP
+    100378: UpperLipInOut_CTRL
+    100380: UpperLipInOut_GRP
+    100382: UpperLipInOut_POS_GRP
+    100384: UpperLipUp_CTRL
+    100386: UpperLipUp_GRP
+    100388: UpperLipUp_POS_GRP
+    100390: Whistle_CTRL
+    100392: Whistle_GRP
+    100394: Whistle_POS_GRP
+    400000: //RootNode
+    400002: Bind_Head
+    400004: Bind_HeadTop_End
+    400006: Bind_Hips
+    400008: Bind_LeftArm
+    400010: Bind_LeftEye
+    400012: Bind_LeftFoot
+    400014: Bind_LeftForeArm
+    400016: Bind_LeftHand
+    400018: Bind_LeftHandIndex1
+    400020: Bind_LeftHandIndex2
+    400022: Bind_LeftHandIndex3
+    400024: Bind_LeftHandIndex4
+    400026: Bind_LeftHandMiddle1
+    400028: Bind_LeftHandMiddle2
+    400030: Bind_LeftHandMiddle3
+    400032: Bind_LeftHandMiddle4
+    400034: Bind_LeftHandPinky1
+    400036: Bind_LeftHandPinky2
+    400038: Bind_LeftHandPinky3
+    400040: Bind_LeftHandPinky4
+    400042: Bind_LeftHandRing1
+    400044: Bind_LeftHandRing2
+    400046: Bind_LeftHandRing3
+    400048: Bind_LeftHandRing4
+    400050: Bind_LeftHandThumb1
+    400052: Bind_LeftHandThumb2
+    400054: Bind_LeftHandThumb3
+    400056: Bind_LeftHandThumb4
+    400058: Bind_LeftLeg
+    400060: Bind_LeftShoulder
+    400062: Bind_LeftToe_End
+    400064: Bind_LeftToeBase
+    400066: Bind_LeftUpLeg
+    400068: Bind_Neck
+    400070: Bind_RightArm
+    400072: Bind_RightEye
+    400074: Bind_RightFoot
+    400076: Bind_RightForeArm
+    400078: Bind_RightHand
+    400080: Bind_RightHandIndex1
+    400082: Bind_RightHandIndex2
+    400084: Bind_RightHandIndex3
+    400086: Bind_RightHandIndex4
+    400088: Bind_RightHandMiddle1
+    400090: Bind_RightHandMiddle2
+    400092: Bind_RightHandMiddle3
+    400094: Bind_RightHandMiddle4
+    400096: Bind_RightHandPinky1
+    400098: Bind_RightHandPinky2
+    400100: Bind_RightHandPinky3
+    400102: Bind_RightHandPinky4
+    400104: Bind_RightHandRing1
+    400106: Bind_RightHandRing2
+    400108: Bind_RightHandRing3
+    400110: Bind_RightHandRing4
+    400112: Bind_RightHandThumb1
+    400114: Bind_RightHandThumb2
+    400116: Bind_RightHandThumb3
+    400118: Bind_RightHandThumb4
+    400120: Bind_RightLeg
+    400122: Bind_RightShoulder
+    400124: Bind_RightToe_End
+    400126: Bind_RightToeBase
+    400128: Bind_RightUpLeg
+    400130: Bind_Root
+    400132: Bind_Spine
+    400134: Bind_Spine1
+    400136: Bind_Spine2
+    400138: Character
+    400140: CheekPuff_CTRL
+    400142: CheekPuff_GRP
+    400144: CheekPuff_POS_GRP
+    400146: Facial_CTRLS_GRP
+    400148: Facial_CTRLs_Mover
+    400150: Facial_Hookup
+    400152: FacialControl_POS_GRP
+    400154: FK_LeftArm
+    400156: FK_LeftEye
+    400158: FK_LeftFoot
+    400160: FK_LeftForeArm
+    400162: FK_LeftHand
+    400164: FK_LeftLeg
+    400166: FK_LeftToe_End
+    400168: FK_LeftToeBase
+    400170: FK_LeftUpLeg
+    400172: FK_RightArm
+    400174: FK_RightEye
+    400176: FK_RightFoot
+    400178: FK_RightForeArm
+    400180: FK_RightHand
+    400182: FK_RightLeg
+    400184: FK_RightToe_End
+    400186: FK_RightToeBase
+    400188: FK_RightUpLeg
+    400190: Frown_CTRL
+    400192: Frown_GRP
+    400194: Frown_POS_GRP
+    400196: IK_LeftArm
+    400198: IK_LeftEye
+    400200: IK_LeftFoot
+    400202: IK_LeftForeArm
+    400204: IK_LeftHand
+    400206: IK_LeftLeg
+    400208: IK_LeftToe_End
+    400210: IK_LeftToeBase
+    400212: IK_LeftUpLeg
+    400214: IK_RightArm
+    400216: IK_RightEye
+    400218: IK_RightFoot
+    400220: IK_RightForeArm
+    400222: IK_RightHand
+    400224: IK_RightLeg
+    400226: IK_RightToe_End
+    400228: IK_RightToeBase
+    400230: IK_RightUpLeg
+    400232: JawInOut_CTRL
+    400234: JawInOut_GRP
+    400236: JawInOut_POS_GRP
+    400238: JawPos_CTRL
+    400240: JawPos_GRP
+    400242: JawPos_POS_GRP
+    400244: JawRot_CTRL
+    400246: JawRot_GRP
+    400248: JawRot_POS_GRP
+    400250: LeftBrow_CTRL
+    400252: LeftBrow_GRP
+    400254: LeftBrow_POS_GRP
+    400256: LeftBrowOuterLower_CTRL
+    400258: LeftBrowOuterLower_GRP
+    400260: LeftBrowOuterLower_POS_GRP
+    400262: LeftEye_Aim_CTRL_GuideCurve_Cluster2Handle
+    400264: LeftEyeBlink_CTRL
+    400266: LeftEyeBlink_GRP
+    400268: LeftEyeBlink_POS_GRP
+    400270: LeftFoot_IK_BakingLOC
+    400272: LeftForeArm_IK_BakingLOC
+    400274: LeftForeArm_IK_CTRL_GuideCurve_Cluster2Handle
+    400276: LeftLeg_IK_BakingLOC
+    400278: LeftLeg_IK_CTRL_GuideCurve_Cluster2Handle
+    400280: LowerLipDown_CTRL
+    400282: LowerLipDown_GRP
+    400284: LowerLipDown_POS_GRP
+    400286: LowerLipInOut_CTRL
+    400288: LowerLipInOut_GRP
+    400290: LowerLipInOut_POS_GRP
+    400292: Mesh_Body
+    400294: Mesh_Bottoms
+    400296: Mesh_Eyelashes
+    400298: Mesh_Eyes
+    400300: Mesh_GRP
+    400302: Mesh_Hair
+    400304: Mesh_Tops
+    400306: MouthNarrow_CTRL
+    400308: MouthNarrow_GRP
+    400310: MouthNarrow_POS_GRP
+    400312: MouthPosition_CTRL
+    400314: MouthPosition_GRP
+    400316: MouthPosition_POS_GRP
+    400318: NoseScrunch_CTRL
+    400320: NoseScrunch_GRP
+    400322: NoseScrunch_POS_GRP
+    400324: RightBrow_CTRL
+    400326: RightBrow_GRP
+    400328: RightBrow_POS_GRP
+    400330: RightBrowOuterLower_CTRL
+    400332: RightBrowOuterLower_GRP
+    400334: RightBrowOuterLower_POS_GRP
+    400336: RightEye_Aim_CTRL_GuideCurve_Cluster2Handle
+    400338: RightEyeBlink_CTRL
+    400340: RightEyeBlink_GRP
+    400342: RightEyeBlink_POS_GRP
+    400344: RightFoot_IK_BakingLOC
+    400346: RightForeArm_IK_BakingLOC
+    400348: RightForeArm_IK_CTRL_GuideCurve_Cluster2Handle
+    400350: RightLeg_IK_BakingLOC
+    400352: RightLeg_IK_CTRL_GuideCurve_Cluster2Handle
+    400354: Smile_CTRL
+    400356: Smile_GRP
+    400358: Smile_POS_GRP
+    400360: Squint_CTRL
+    400362: Squint_GRP
+    400364: Squint_POS_GRP
+    400366: Sync_CTRL
+    400368: Sync_GRP
+    400370: Sync_POS_GRP
+    400372: Tongue_CTRL
+    400374: Tongue_GRP
+    400376: Tongue_POS_GRP
+    400378: UpperLipInOut_CTRL
+    400380: UpperLipInOut_GRP
+    400382: UpperLipInOut_POS_GRP
+    400384: UpperLipUp_CTRL
+    400386: UpperLipUp_GRP
+    400388: UpperLipUp_POS_GRP
+    400390: Whistle_CTRL
+    400392: Whistle_GRP
+    400394: Whistle_POS_GRP
+    4300000: Mesh_Body
+    4300002: Mesh_Bottoms
+    4300004: Mesh_Eyelashes
+    4300006: Mesh_Eyes
+    4300008: Mesh_Hair
+    4300010: Mesh_Tops
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Mesh_Body
+    13700002: Mesh_Bottoms
+    13700004: Mesh_Eyelashes
+    13700006: Mesh_Eyes
+    13700008: Mesh_Hair
+    13700010: Mesh_Tops
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bind_Root
+        weight: 1
+      - path: Bind_Root/Bind_Hips
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/Bind_LeftToeBase/Bind_LeftToe_End
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/Bind_LeftFoot/LeftFoot_IK_BakingLOC
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_LeftUpLeg/Bind_LeftLeg/LeftLeg_IK_BakingLOC
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/Bind_RightToeBase/Bind_RightToe_End
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/Bind_RightFoot/RightFoot_IK_BakingLOC
+        weight: 1
+      - path: Bind_Root/Bind_Hips/Bind_RightUpLeg/Bind_RightLeg/RightLeg_IK_BakingLOC
+        weight: 1
+      - path: Bind_Root/Bind_Hips/FK_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/FK_LeftUpLeg/FK_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/FK_LeftUpLeg/FK_LeftLeg/FK_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/FK_LeftUpLeg/FK_LeftLeg/FK_LeftFoot/FK_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/FK_LeftUpLeg/FK_LeftLeg/FK_LeftFoot/FK_LeftToeBase/FK_LeftToe_End
+        weight: 1
+      - path: Bind_Root/Bind_Hips/FK_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/FK_RightUpLeg/FK_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/FK_RightUpLeg/FK_RightLeg/FK_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/FK_RightUpLeg/FK_RightLeg/FK_RightFoot/FK_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/FK_RightUpLeg/FK_RightLeg/FK_RightFoot/FK_RightToeBase/FK_RightToe_End
+        weight: 1
+      - path: Bind_Root/Bind_Hips/IK_LeftUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/IK_LeftFoot/IK_LeftToeBase/IK_LeftToe_End
+        weight: 1
+      - path: Bind_Root/Bind_Hips/IK_LeftUpLeg/IK_LeftLeg/LeftLeg_IK_CTRL_GuideCurve_Cluster2Handle
+        weight: 1
+      - path: Bind_Root/Bind_Hips/IK_RightUpLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/IK_RightUpLeg/IK_RightLeg
+        weight: 1
+      - path: Bind_Root/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot
+        weight: 1
+      - path: Bind_Root/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase
+        weight: 1
+      - path: Bind_Root/Bind_Hips/IK_RightUpLeg/IK_RightLeg/IK_RightFoot/IK_RightToeBase/IK_RightToe_End
+        weight: 1
+      - path: Bind_Root/Bind_Hips/IK_RightUpLeg/IK_RightLeg/RightLeg_IK_CTRL_GuideCurve_Cluster2Handle
+        weight: 1
+      - path: Bind_Root/Bind_Spine
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandIndex1/Bind_LeftHandIndex2/Bind_LeftHandIndex3/Bind_LeftHandIndex4
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandMiddle1/Bind_LeftHandMiddle2/Bind_LeftHandMiddle3/Bind_LeftHandMiddle4
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandPinky1/Bind_LeftHandPinky2/Bind_LeftHandPinky3/Bind_LeftHandPinky4
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandRing1/Bind_LeftHandRing2/Bind_LeftHandRing3/Bind_LeftHandRing4
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/Bind_LeftHand/Bind_LeftHandThumb1/Bind_LeftHandThumb2/Bind_LeftHandThumb3/Bind_LeftHandThumb4
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/Bind_LeftArm/Bind_LeftForeArm/LeftForeArm_IK_BakingLOC
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/FK_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/FK_LeftArm/FK_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/FK_LeftArm/FK_LeftForeArm/FK_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm/IK_LeftHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_LeftShoulder/IK_LeftArm/IK_LeftForeArm/LeftForeArm_IK_CTRL_GuideCurve_Cluster2Handle
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head/Bind_HeadTop_End
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head/Bind_LeftEye
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head/Bind_RightEye
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head/FK_LeftEye
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head/FK_RightEye
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head/IK_LeftEye
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head/IK_LeftEye/LeftEye_Aim_CTRL_GuideCurve_Cluster2Handle
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head/IK_RightEye
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_Neck/Bind_Head/IK_RightEye/RightEye_Aim_CTRL_GuideCurve_Cluster2Handle
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandIndex1/Bind_RightHandIndex2/Bind_RightHandIndex3/Bind_RightHandIndex4
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandMiddle1/Bind_RightHandMiddle2/Bind_RightHandMiddle3/Bind_RightHandMiddle4
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandPinky1/Bind_RightHandPinky2/Bind_RightHandPinky3/Bind_RightHandPinky4
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandRing1/Bind_RightHandRing2/Bind_RightHandRing3/Bind_RightHandRing4
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/Bind_RightHand/Bind_RightHandThumb1/Bind_RightHandThumb2/Bind_RightHandThumb3/Bind_RightHandThumb4
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/Bind_RightArm/Bind_RightForeArm/RightForeArm_IK_BakingLOC
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/FK_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/FK_RightArm/FK_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/FK_RightArm/FK_RightForeArm/FK_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm/IK_RightHand
+        weight: 1
+      - path: Bind_Root/Bind_Spine/Bind_Spine1/Bind_Spine2/Bind_RightShoulder/IK_RightArm/IK_RightForeArm/RightForeArm_IK_CTRL_GuideCurve_Cluster2Handle
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/Facial_Hookup
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/CheekPuff_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/CheekPuff_POS_GRP/CheekPuff_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/CheekPuff_POS_GRP/CheekPuff_GRP/CheekPuff_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/Frown_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/Frown_POS_GRP/Frown_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/Frown_POS_GRP/Frown_GRP/Frown_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/JawInOut_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/JawInOut_POS_GRP/JawInOut_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/JawInOut_POS_GRP/JawInOut_GRP/JawInOut_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/JawPos_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/JawPos_POS_GRP/JawPos_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/JawPos_POS_GRP/JawPos_GRP/JawPos_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/JawRot_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/JawRot_POS_GRP/JawRot_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/JawRot_POS_GRP/JawRot_GRP/JawRot_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/LeftBrow_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/LeftBrow_POS_GRP/LeftBrow_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/LeftBrow_POS_GRP/LeftBrow_GRP/LeftBrow_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/LeftBrowOuterLower_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/LeftBrowOuterLower_POS_GRP/LeftBrowOuterLower_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/LeftBrowOuterLower_POS_GRP/LeftBrowOuterLower_GRP/LeftBrowOuterLower_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/LeftEyeBlink_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/LeftEyeBlink_POS_GRP/LeftEyeBlink_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/LeftEyeBlink_POS_GRP/LeftEyeBlink_GRP/LeftEyeBlink_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/LowerLipDown_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/LowerLipDown_POS_GRP/LowerLipDown_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/LowerLipDown_POS_GRP/LowerLipDown_GRP/LowerLipDown_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/LowerLipInOut_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/LowerLipInOut_POS_GRP/LowerLipInOut_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/LowerLipInOut_POS_GRP/LowerLipInOut_GRP/LowerLipInOut_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/MouthNarrow_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/MouthNarrow_POS_GRP/MouthNarrow_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/MouthNarrow_POS_GRP/MouthNarrow_GRP/MouthNarrow_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/MouthPosition_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/MouthPosition_POS_GRP/MouthPosition_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/MouthPosition_POS_GRP/MouthPosition_GRP/MouthPosition_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/NoseScrunch_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/NoseScrunch_POS_GRP/NoseScrunch_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/NoseScrunch_POS_GRP/NoseScrunch_GRP/NoseScrunch_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/RightBrow_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/RightBrow_POS_GRP/RightBrow_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/RightBrow_POS_GRP/RightBrow_GRP/RightBrow_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/RightBrowOuterLower_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/RightBrowOuterLower_POS_GRP/RightBrowOuterLower_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/RightBrowOuterLower_POS_GRP/RightBrowOuterLower_GRP/RightBrowOuterLower_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/RightEyeBlink_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/RightEyeBlink_POS_GRP/RightEyeBlink_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/RightEyeBlink_POS_GRP/RightEyeBlink_GRP/RightEyeBlink_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/Smile_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/Smile_POS_GRP/Smile_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/Smile_POS_GRP/Smile_GRP/Smile_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/Squint_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/Squint_POS_GRP/Squint_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/Squint_POS_GRP/Squint_GRP/Squint_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/Sync_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/Sync_POS_GRP/Sync_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/Sync_POS_GRP/Sync_GRP/Sync_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/Tongue_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/Tongue_POS_GRP/Tongue_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/Tongue_POS_GRP/Tongue_GRP/Tongue_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/UpperLipInOut_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/UpperLipInOut_POS_GRP/UpperLipInOut_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/UpperLipInOut_POS_GRP/UpperLipInOut_GRP/UpperLipInOut_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/UpperLipUp_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/UpperLipUp_POS_GRP/UpperLipUp_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/UpperLipUp_POS_GRP/UpperLipUp_GRP/UpperLipUp_CTRL
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/Whistle_POS_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/Whistle_POS_GRP/Whistle_GRP
+        weight: 1
+      - path: Character/Facial_CTRLS_GRP/FacialControl_POS_GRP/Facial_CTRLs_Mover/Whistle_POS_GRP/Whistle_GRP/Whistle_CTRL
+        weight: 1
+      - path: Character/Mesh_GRP
+        weight: 1
+      - path: Mesh_Body
+        weight: 1
+      - path: Mesh_Bottoms
+        weight: 1
+      - path: Mesh_Eyelashes
+        weight: 1
+      - path: Mesh_Eyes
+        weight: 1
+      - path: Mesh_Hair
+        weight: 1
+      - path: Mesh_Tops
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
