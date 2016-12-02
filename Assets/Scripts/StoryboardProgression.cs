@@ -7,14 +7,19 @@ public class StoryboardProgression : MonoBehaviour {
 
     [SerializeField]string[] answers;
     [SerializeField]Object[] scenes;
+    public int[] sceneIDs;
 
     Rect rect;
     GUIStyle gStyle = new GUIStyle();
-    //public Color fontColor;
 
     void Awake()
     {
         rect = new Rect(0 + 10, Screen.height - 100, Screen.width, Screen.height);
+
+        /*
+        sceneIDs = new int[scenes.Length];
+        for (int i = 0; i < scenes.Length; i++)
+            sceneIDs[i] = SceneManager.GetSceneByName(scenes[i].name).buildIndex;*/
     }
 
     void Start()
@@ -40,14 +45,16 @@ public class StoryboardProgression : MonoBehaviour {
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
-            Application.LoadLevel(scenes[0].name);
-        else if (Input.GetKeyDown(KeyCode.Alpha2) && scenes[1] != null)
-            SceneManager.LoadScene(scenes[1].name);
-        else if (Input.GetKeyDown(KeyCode.Alpha3) && scenes[2] != null)
-            SceneManager.LoadScene(scenes[2].name);
-        else if (Input.GetKeyDown(KeyCode.Alpha4) && scenes[3] != null)
-            SceneManager.LoadScene(scenes[3].name);
-        else if (Input.GetKeyDown(KeyCode.Alpha5) && scenes[4] != null)
-            SceneManager.LoadScene(scenes[4].name);
+        {
+            SceneManager.LoadScene(sceneIDs[0]);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2) && sceneIDs[1] != 0)
+            SceneManager.LoadScene(sceneIDs[1]);
+        else if (Input.GetKeyDown(KeyCode.Alpha3) && sceneIDs[2] != 0)
+            SceneManager.LoadScene(sceneIDs[2]);
+        else if (Input.GetKeyDown(KeyCode.Alpha4) && sceneIDs[3] != 0)
+            SceneManager.LoadScene(sceneIDs[3]);
+        else if (Input.GetKeyDown(KeyCode.Alpha5) && sceneIDs[4] != 0)
+            SceneManager.LoadScene(sceneIDs[4]);
     }
 }

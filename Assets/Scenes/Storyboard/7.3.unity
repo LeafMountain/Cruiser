@@ -107,6 +107,11 @@ Prefab:
       propertyPath: answers.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012250647690, guid: 007ae5e184b2b0344a34dee27dc849c7,
+        type: 2}
+      propertyPath: sceneIDs.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012482226400, guid: 007ae5e184b2b0344a34dee27dc849c7, type: 2}
       propertyPath: m_LocalPosition.x
       value: 10.855922
@@ -185,6 +190,16 @@ Prefab:
         type: 2}
       propertyPath: answers.Array.data[2]
       value: oiewurpq
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012250647690, guid: 007ae5e184b2b0344a34dee27dc849c7,
+        type: 2}
+      propertyPath: sceneIDs.Array.data[1]
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012250647690, guid: 007ae5e184b2b0344a34dee27dc849c7,
+        type: 2}
+      propertyPath: sceneIDs.Array.data[0]
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 007ae5e184b2b0344a34dee27dc849c7, type: 2}
