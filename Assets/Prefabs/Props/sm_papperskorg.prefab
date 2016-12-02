@@ -21,12 +21,13 @@ GameObject:
   - 4: {fileID: 4000012906728450}
   - 33: {fileID: 33000013337758966}
   - 23: {fileID: 23000012572738930}
+  - 65: {fileID: 65000011660418292}
   m_Layer: 0
   m_Name: sm_papperskorg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4000012906728450
 Transform:
@@ -35,8 +36,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011150634164}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.141, y: 0.348, z: -40.829}
-  m_LocalScale: {x: 1.2327826, y: 1.2327839, z: 1.2327839}
+  m_LocalPosition: {x: 4.4111624, y: -10.369, z: 14.64976}
+  m_LocalScale: {x: 1.5429788, y: 1.5429804, z: 1.5429804}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -54,7 +55,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: cb66b8ad56c0e0348ac6a6dd211573a0, type: 2}
+  - {fileID: 2100000, guid: cf2ed302737d48044aa1b5cc820e6f2b, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -77,3 +78,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011150634164}
   m_Mesh: {fileID: 4300000, guid: c73a18c1ca14c574899b97c1989214e6, type: 3}
+--- !u!65 &65000011660418292
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011150634164}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3198589, y: 0.57119703, z: 0.31985882}
+  m_Center: {x: 0, y: 0, z: 0}
