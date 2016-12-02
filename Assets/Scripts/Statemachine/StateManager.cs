@@ -7,6 +7,8 @@ public class StateManager : MonoBehaviour {
 
     static StateManager stateManager;
 
+    public GameObject pauseMenu;
+
     void Awake()
     {
         if (stateManager == null)
