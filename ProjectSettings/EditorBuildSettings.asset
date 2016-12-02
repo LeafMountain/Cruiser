@@ -13,3 +13,63 @@ EditorBuildSettings:
     path: Assets/Scenes/Debug/Max2.unity
   - enabled: 1
     path: Assets/Scenes/Preliminary.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/10.1.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/10.2.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/10.3.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/11.1.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/11.2_.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/11.2b.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/11.2c.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/12.1.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/13.1.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/14.1a.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/14.1b.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/15.1.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/16.1.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/17.1.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/17.2.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/18.1.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/18.2.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/18.3.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/18.4.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/6.1.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/6.2.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/6.3.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/6.4.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/6.5.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/7.1.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/7.2.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/7.3.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/7.4_.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/8.1.unity
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/9.1.unity
