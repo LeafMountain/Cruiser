@@ -30,7 +30,6 @@ public class CarryObjects : MonoBehaviour {
 		if(!isCarrying) {
 			if(Input.GetKeyDown(pickUpItemKey)) {
 				RaycastHit hitInfo;
-				Debug.DrawRay(playerCam.position, playerCam.TransformDirection(Vector3.forward));
 				if(Physics.Raycast(playerCam.position, playerCam.TransformDirection(Vector3.forward), out hitInfo, rayDistance, layerOfObjects)) {
 					if(hitInfo.transform.tag == "ErinDoor") {
 						StartCoroutine(DoorClose(hitInfo.transform));
