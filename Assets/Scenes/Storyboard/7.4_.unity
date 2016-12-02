@@ -190,6 +190,11 @@ Prefab:
       propertyPath: answers.Array.data[2]
       value: oiewurpq
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012250647690, guid: 007ae5e184b2b0344a34dee27dc849c7,
+        type: 2}
+      propertyPath: sceneIDs.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 007ae5e184b2b0344a34dee27dc849c7, type: 2}
   m_IsPrefabParent: 0
