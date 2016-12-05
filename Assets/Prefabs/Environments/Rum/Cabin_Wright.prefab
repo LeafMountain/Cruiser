@@ -3206,6 +3206,7 @@ GameObject:
   - 4: {fileID: 4000011743840888}
   - 95: {fileID: 95000010940451036}
   - 136: {fileID: 136000011679676294}
+  - 82: {fileID: 82000013030067658}
   m_Layer: 0
   m_Name: wright_prefab
   m_TagString: Untagged
@@ -4868,7 +4869,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011636713812}
   m_LocalRotation: {x: -0, y: -0.30228683, z: -0, w: 0.953217}
-  m_LocalPosition: {x: 1.1512928, y: 0.5217576, z: -1.049408}
+  m_LocalPosition: {x: 1.1512928, y: 0.475, z: -1.049408}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 144.81, z: 0}
   m_Children: []
@@ -5753,7 +5754,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010157287090}
   m_LocalRotation: {x: -0, y: -0.42198554, z: -0, w: 0.90660256}
-  m_LocalPosition: {x: 1.16, y: 0.476, z: -1.35}
+  m_LocalPosition: {x: 1.16, y: 0.452, z: -1.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 130.08, z: 0}
   m_Children: []
@@ -8251,6 +8252,80 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!82 &82000013030067658
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011773853860}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b586ac2d7d2aabd4db556668358d62b5, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!95 &95000010940451036
 Animator:
   serializedVersion: 3
@@ -8377,6 +8452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   poison: {fileID: 1000011636713812}
   water: {fileID: 1000010157287090}
+  wrightSource: {fileID: 82000013030067658}
 --- !u!136 &136000011679676294
 CapsuleCollider:
   m_ObjectHideFlags: 1
